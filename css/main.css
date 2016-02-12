@@ -1,0 +1,37 @@
+.logo {
+width: 80%;
+}
+nav ul {
+list-style-type: none;
+padding-top: 34px;
+margin: 0 -15px 0 0;
+float: right;
+line-height: 20px;
+white-space: nowrap;
+}
+
+nav li {
+position: relative;
+float: left;
+margin: 0;
+padding: 0;
+border-right: 1px #97C095 solid;
+}
+
+nav li:hover a{
+background: #55865A;
+text-decoration: none;
+}
+
+nav a {
+text-decoration: none;
+padding: 10px 25px;
+color: #97C095;}
+
+nav a:hover {
+color: #EFFCE4;
+}
+
+.img1 {		/*Imagen de la semilla hasta arriba*/
+width: 100%;
+	}		
