@@ -1,3 +1,6 @@
+body {
+	font-family: "OpenSans-Light";
+}
 .logo {
 width: 80%;
 }
@@ -9,7 +12,6 @@ float: right;
 line-height: 20px;
 white-space: nowrap;
 }
-
 nav li {
 position: relative;
 float: left;
@@ -17,21 +19,119 @@ margin: 0;
 padding: 0;
 border-right: 1px #97C095 solid;
 }
-
 nav li:hover a{
 background: #55865A;
 text-decoration: none;
 }
-
 nav a {
 text-decoration: none;
 padding: 10px 25px;
 color: #97C095;}
-
 nav a:hover {
 color: #EFFCE4;
 }
-
 .img1 {		/*Imagen de la semilla hasta arriba*/
-width: 100%;
-	}		
+background-image: url("../img/semilla.jpg");
+padding-bottom: 40%;
+background-position: 0px -220px;
+background-repeat: no-repeat;
+}
+.fg{ 		/*Propiedades de fondo gris*/
+padding-top:3%;
+padding-bottom: 5%;
+}
+#c1{
+margin-bottom: 5%;
+margin-left: 6%;
+}
+#c2 {
+margin-top: 10%;
+margin-bottom: 0%;
+text-align: center;
+}
+.img2 {
+width: 25%;
+}
+/*.....................................METODOLOGIA...........................*/
+.img3 {		/*Imagen de metodo*/
+margin:0%;
+width: 104%;
+float: left;
+}
+.img4 {		/*Imagen dentro de cuadro verde de metodo*/
+margin-top: 5%;
+margin-left: 45%;
+}
+.bkver{
+background-image: url("../img/fondo.jpg");
+background-repeat: no-repeat;
+margin:0px;
+float: right;
+padding: 112px;
+}
+.img5 { 		/*Imagenes de servicios*/
+width: 35%;
+}
+/*--------------------SECCION DE PROTYECTOS---------------------*/
+.img6{		/*.....Imagenes de proyectos........*/
+width: 80%;
+margin-left: 15%
+}
+.img7 {
+width: 80%;
+margin-top: -1%;
+margin-left: 15%;
+margin-bottom: 10%;
+}
+/*....*/
+.h31 {
+margin-top:10%;
+margin-left: 16%;
+}
+.pt-30{
+padding-top: 30%;
+}
+/*-------------------fin proyectos-----------------------------------*/
+
+/*----------**--------SECCION DE EQUIPO--------------**------------*/
+
+.imgc{
+border-radius: 50%;
+width:50%;
+}
+
+.redes{
+
+margin-left: 33%;
+display: inline;
+}
+
+.imgred{		/*tamaño imagen de redes sociales*/
+	width: 10%;
+	margin-top: 10%;
+}
+
+/*--------------------------**--------SECCION DE BLOG-------------------**--------*/
+
+.bg-gris {
+	background-image: url("../img/fondo2.jpg");
+}
+.slider{
+	width: 20%;
+	margin-left: 10%;
+	margin-top: 110%;
+}
+.slider2 {
+	width: 40%;
+	margin-top:220%;
+	float:right;
+
+}
+.imgb1{		/*Propiedades de las 3 imagenes*/
+	width: 90%;
+}
+.imgb2 {
+	width: 90%;
+	margin-top: 16%;
+	}
+
