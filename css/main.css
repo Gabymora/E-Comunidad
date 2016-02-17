@@ -53,26 +53,31 @@ text-align: center;
 width: 25%;
 }
 /*.....................................METODOLOGIA...........................*/
-.img3 {		/*Imagen de metodo*/
-margin:0%;
-width: 104%;
-float: left;
-}
+
 .img4 {		/*Imagen dentro de cuadro verde de metodo*/
 margin-top: 5%;
 margin-left: 45%;
 }
-.bkver{
-background-image: url("../img/fondo.jpg");
-background-repeat: no-repeat;
-margin:0px;
-float: right;
-padding: 112px;
+.medida {
+	width: 50%;
+	height: 380px;
+	position: relative;
 }
+.pos1 {
+	float: right;	
+}
+.derecha{
+float:right;
+width: 35%;
+margin-left:735px;
+margin-top: -335px;
+position: absolute;
+}
+
+/*--------------------SECCION DE PROTYECTOS---------------------*/
 .img5 { 		/*Imagenes de servicios*/
 width: 35%;
 }
-/*--------------------SECCION DE PROTYECTOS---------------------*/
 .img6{		/*.....Imagenes de proyectos........*/
 width: 80%;
 margin-left: 15%
@@ -115,6 +120,7 @@ display: inline;
 
 .bg-gris {
 	background-image: url("../img/fondo2.jpg");
+	z-index: -1;
 }
 .slider{
 	width: 20%;
@@ -127,11 +133,81 @@ display: inline;
 	float:right;
 
 }
+.blogl{
+	margin-left: -55px;
+}
+
 .imgb1{		/*Propiedades de las 3 imagenes*/
 	width: 90%;
 }
-.imgb2 {
-	width: 90%;
-	margin-top: 16%;
-	}
 
+.bg1{			/*imagnes de los lados de las como las flechas */
+	background-image: url("../img/iconos/slider/ecomunidad-15.png");
+	background-repeat: no-repeat;
+
+}
+.bg2{			/*imagen de lado derecho usuario*/
+	background-image: url("../img/iconos/slider/ecomunidad-16.png");
+	background-repeat: no-repeat;
+	margin-left: 1170px;
+}
+.mtop {				/*posisicon de las flechas*/
+	position: absolute;
+	width: 90px; 
+	height: 90px;
+	margin-top: 200px;
+	left: 30px;
+}
+
+/*...............**.....SECCION DE REDES SOCIALES......**........................*/
+
+#bg-gris{
+	background-color: #4D4D4D;
+	padding-bottom: 395px;
+}
+.cuadgde {
+	border: 1px white solid;
+	width: 1105px;
+	height: 260px;
+	position: absolute;
+	margin: 65px;
+}
+#cuad{
+	border-right: 1px white solid;
+	width: 275px;
+	height: 260px;
+}
+/*------margenes de posicionamiento----------*/
+.mg-2{
+	margin: -1px;
+}
+.mg-3{
+	margin-left:275px;
+	margin-top: -260px;
+}
+.mg-4{
+	margin-left: 551px;
+	margin-top: -260px;
+}
+.mg-5{
+	margin-left: 829px;
+	margin-top: -260px;
+}
+
+.pos2 {		/* posicion de la imagen dentro de los cuadros*/
+	margin-top: 155px;
+	margin-left: 140px;
+	width: 42px;
+}
+.esp{		/*Simple y vulgar espacio */
+	margin-left: 15px;
+}
+/*..........................**....FOOTER....**....................................*/
+
+.pdl{
+	padding-left: 5%;
+}
+.bg-gr{
+	background-color: #B9B9B9;
+	padding-bottom: 3%;
+}
